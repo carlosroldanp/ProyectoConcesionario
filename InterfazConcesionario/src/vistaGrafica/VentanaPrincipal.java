@@ -60,7 +60,7 @@ public class VentanaPrincipal extends JFrame {
 		menuBar.add(mnEdicion);
 
 		JMenuItem mntmVentas = new JMenuItem("Ventas");
-		mntmVentas.setActionCommand("editarVentas");
+		mntmVentas.setActionCommand("abrirVistaVentas");
 		mntmVentas.addActionListener(new Controlador());
 		mnEdicion.add(mntmVentas);
 

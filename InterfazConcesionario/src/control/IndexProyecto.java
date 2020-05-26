@@ -26,7 +26,7 @@ public class IndexProyecto {
 
 	public static void main(String[] args) {
 
-		// initDatos();
+		initDatos();
 
 		while (!salir) {
 			Menu.verMenu();

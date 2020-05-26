@@ -148,12 +148,14 @@ public class NuevaVenta extends JDialog {
 		getContentPane().add(buttonPane, BorderLayout.SOUTH);
 
 		JButton okButton = new JButton("GUARDAR");
+		okButton.setFont(new Font("Verdana Pro", Font.PLAIN, 13));
 		okButton.setActionCommand("guardarVenta");
 		okButton.addActionListener(new VentaControl(this, txtPrecio, cmbCoche, cmbCliente, cmbModalidad));
 		buttonPane.add(okButton);
 		getRootPane().setDefaultButton(okButton);
 
 		JButton cancelButton = new JButton("CANCELAR");
+		cancelButton.setFont(new Font("Verdana Pro", Font.PLAIN, 13));
 		cancelButton.setActionCommand("cancelar");
 		cancelButton.addActionListener(new Controlador(this));
 		buttonPane.add(cancelButton);

@@ -45,9 +45,6 @@ public class Controlador implements ActionListener, WindowListener {
 		this.setTxtListaCoches(txtListaCoches);
 	}
 
-	public Controlador(JTable tablaEdicion) {
-	}
-
 	@Override
 	public void actionPerformed(ActionEvent ev) {
 		String evento = ev.getActionCommand();
