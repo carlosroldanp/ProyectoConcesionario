@@ -1,4 +1,0 @@
-TRUNCATE TABLE ventas;
-TRUNCATE TABLE coches;
-TRUNCATE TABLE clientes;
-TRUNCATE TABLE modalidades;
